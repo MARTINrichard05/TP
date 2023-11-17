@@ -34,3 +34,26 @@ def d(n):
         nombre += 1
         somme += nombre
     print("Le plus grand nombre N tel que ∑𝑁 𝑖=0 𝑖 ≤ %d est %d." % (n, nombre-1))
+
+# le programme demande a l'utilisateu ce qu'il veur executer
+print("Choisissez un exercice :")
+print("a : somme des n premiers entiers naturels.")
+print("b : saisir des entiers jusqu'à ce que 100 soit saisi.")
+print("c : saisir 10 réels entre 0 et 20 et les classer en catégories.")
+print("d : déterminer le plus grand nombre N tel que ∑𝑁 𝑖=0 𝑖 ≤ n.")
+while True:
+    choix = input("Votre choix : ")
+    if choix == "a":
+        a(int(input("Saisir un entier : ")))
+        break
+    elif choix == "b":
+        b(int(input("Saisir un entier : ")))
+        break
+    elif choix == "c":
+        c()
+        break
+    elif choix == "d":
+        d(int(input("Saisir un entier : ")))
+        break
+    else:
+        print("Choix incorrect.")
