@@ -1,3 +1,3 @@
 # TP
-Martin Richard
+De Martin Richard   
 Voici mes jolis exos :)
