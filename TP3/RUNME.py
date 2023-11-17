@@ -5,7 +5,7 @@
 while True:
     print("Choisissez un exercice :")
     print("1 : Choix de la structure itérative")
-    print("2 : Compte à rebours")
+    print("2 : nombre 100")
     print("3 : Jeu du nombre mystère")
     print("4 : Factorielle itérative")
     print("5 : Location de vélos")

@@ -41,6 +41,8 @@ print("a : somme des n premiers entiers naturels.")
 print("b : saisir des entiers jusqu'à ce que 100 soit saisi.")
 print("c : saisir 10 réels entre 0 et 20 et les classer en catégories.")
 print("d : déterminer le plus grand nombre N tel que ∑𝑁 𝑖=0 𝑖 ≤ n.")
+print("tt : tester tous les exercices.")
+
 while True:
     choix = input("Votre choix : ")
     if choix == "a":
@@ -53,6 +55,23 @@ while True:
         c()
         break
     elif choix == "d":
+        d(int(input("Saisir un entier : ")))
+        break
+    elif choix == "tt":
+        print("Exo a")
+        print("\n \n")
+        a(int(input("Saisir un entier : ")))
+        print("\n \n")
+        print("Exo b")
+        print("\n \n")
+        b(int(input("Saisir un entier : ")))
+        print("\n \n")
+        print("Exo c")
+        print("\n \n")
+        c()
+        print("\n \n")
+        print("Exo d")
+        print("\n \n")
         d(int(input("Saisir un entier : ")))
         break
     else:
