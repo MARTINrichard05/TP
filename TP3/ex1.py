@@ -35,7 +35,6 @@ def d(n):
         somme += nombre
     print("Le plus grand nombre N tel que ∑𝑁 𝑖=0 𝑖 ≤ %d est %d." % (n, nombre-1))
 
-# le programme demande a l'utilisateu ce qu'il veur executer
 print("Choisissez un exercice :")
 print("a : somme des n premiers entiers naturels.")
 print("b : saisir des entiers jusqu'à ce que 100 soit saisi.")

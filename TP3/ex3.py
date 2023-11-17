@@ -1,5 +1,3 @@
-# tire une valeur aléatoire x entre 0 et 100 et qui demande à l’utilisateur de deviner cette valeur. L’algorithme répond à chaque fois si la valeur est plus grande, plus petite ou égale à la valeur à deviner. Un compteur incrémenté à chaque passage donnera le nombre de tours qui ont été nécessaires pour trouver le nombre mystère.
-
 from random import randint
 
 nb_mystr = randint(0, 100)
