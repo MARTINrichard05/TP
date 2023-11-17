@@ -5,7 +5,7 @@ def a(n):
         somme += i
     print("La somme des %d premiers entiers naturels est %d." % (n, somme))
 
-def b(n):
+def b():
     while True:
         if int(input("Saisir un entier : ")) == 100:
             break
@@ -48,7 +48,7 @@ while True:
         a(int(input("Saisir un entier : ")))
         break
     elif choix == "b":
-        b(int(input("Saisir un entier : ")))
+        b()
         break
     elif choix == "c":
         c()
