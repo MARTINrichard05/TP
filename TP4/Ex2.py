@@ -17,4 +17,4 @@ moyenne = round(moyenne/nombreEtudiants, 2)
 print("Moyenne de classe : ", moyenne, "\n", "Numéro de l’Etudiant | note | ecart a la moyenne")
 
 for i in range(0, nombreEtudiants):
-    print(i, " | ", notes[i], " | ", notes[i] - moyenne)
+    print(i, " | ", notes[i], " | ", round(notes[i] - moyenne, 2))
